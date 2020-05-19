@@ -1,0 +1,42 @@
+header {
+  background-image: url(header.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: -30px;
+    margin-bottom: -20px;
+}
+
+.page-header {
+  padding: 1%;
+}
+
+.kalender {
+  max-width: 50px;
+  margin-bottom: 5px;
+  border: 1px solid;
+  border-top: 10px solid #5B5C79;
+  border-radius: 5px;
+}
+
+.aktivitet {
+  margin-top: -55px;
+  margin-left: 50px;
+}
+
+@media (max-width: 1440px) {
+  .item6, .item7 {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .item4, .item5 {
+    display: none;
+  }
+}
